@@ -1,5 +1,5 @@
-.font {
-  font-family: "Azeret Mono", monospace;
+.inter {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -90,23 +90,221 @@
 }
 
 .my-choice-content {
-  padding: 80px 97px;
+  padding: 80px 100px;
   border-radius: 16px;
+  /* background-color: aquamarine; */
   background: rgba(13, 19, 33, 0.02);
+}
+
+.choice-heading {
+  padding: 0 50px 30px;
 }
 
 .choice-title {
   color: rgb(13, 19, 33);
-  font-size: 32px;
+  font-family: sans-serif;
+  font-size: 30px;
   font-weight: 800;
   text-align: center;
 }
-.choice-description{
+
+.choice-description {
   text-align: center;
   margin: 24px 0px;
+  font-family: sans-serif;
   opacity: 0.7;
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+}
+
+.card-items {
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+  margin: 35px 0 0;
+}
+
+.card-items img {
+  width: 259.56px;
+  height: 217.01px;
+}
+
+.card-heading {
+  margin: 16px 87px 16px 0;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+
+.card-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+
+}
+
+.card-btn {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  margin: 44px 0 12px 20px;
+  padding: 12px 20px 12px 20px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+}
+
+.card-btn .anchor {
+  text-decoration: none;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+
+
+}
+
+.left {
+  margin-left: 49px;
+}
+
+.inspiration {
+  margin: 80px 150px 130px 150px;
+}
+
+.inspiration-text {
+  margin: 0 145px 45px;
+}
+
+.inspiration-heading {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0px;
+}
+
+.inspiration-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin: 24px 0px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.video {
+  padding: 32px;
+  margin: 48px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+
+}
+
+.current-target {
+  margin: 0 150px;
+}
+
+.target-header {
+  margin: 0 140px;
+  text-align: center;
+}
+
+.target-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  margin: 24px 0px;
+}
+
+.target-description1 {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+
+}
+
+.target-container {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px
+}
+
+.target-items {
+  border-radius: 16px;
+  /* background: rgba(255, 76, 30, 0.05); */
+  padding: 40px;
+}
+
+.target-logo {
+  width: 56px;
+  height: 56px;
+}
+
+.target-heading {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 24px 0 0px;
+}
+
+.target-description {
+  width: 280px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin-bottom: 24px;
+
+}
+
+.target-link {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+.item1{
+  background-color: rgba(255, 76, 30, 0.05);
+}
+.item2{
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.item3{
+  background-color: rgba(255, 223, 0, 0.05);
 }
