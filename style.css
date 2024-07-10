@@ -9,6 +9,7 @@
   padding: 0;
 }
 
+/* navigation style */
 .navbar {
   display: flex;
   flex-direction: row;
@@ -35,11 +36,13 @@
   cursor: pointer;
 }
 
+/* hero section */
 .hero-section {
   background-image: url('assets/Hero-bg.png');
   background-size: cover;
 }
 
+/* hero alam is the laptop user*/
 .hero-alam {
   width: 240.28px;
   height: 240px;
@@ -85,6 +88,7 @@
   font-weight: 600;
 }
 
+/* my choice section */
 .my-choice {
   margin: 70px 150px;
 }
@@ -92,7 +96,6 @@
 .my-choice-content {
   padding: 80px 100px;
   border-radius: 16px;
-  /* background-color: aquamarine; */
   background: rgba(13, 19, 33, 0.02);
 }
 
@@ -175,6 +178,7 @@
 
 }
 
+/* section 2 right side text  and image left*/
 .left {
   margin-left: 49px;
 }
@@ -223,6 +227,7 @@
 
 }
 
+/* my current target section */
 .current-target {
   margin: 0 150px;
 }
@@ -258,7 +263,6 @@
 
 .target-items {
   border-radius: 16px;
-  /* background: rgba(255, 76, 30, 0.05); */
   padding: 40px;
 }
 
@@ -299,12 +303,203 @@
   text-decoration-line: underline;
 }
 
-.item1{
+/* html css js background color */
+.item1 {
   background-color: rgba(255, 76, 30, 0.05);
 }
-.item2{
+
+.item2 {
   background-color: rgba(0, 76, 232, 0.05);
 }
-.item3{
+
+.item3 {
   background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* next target section */
+.next-target {
+  margin: 110px 150px 0 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.btm-text {
+  margin: 0 145px;
+
+}
+
+.bottom-title {
+  color: rgb(13, 19, 33);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin: 24px 0px;
+
+}
+
+.bottom-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin: 24px 0px;
+}
+
+.btm-cards {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  gap: 35px;
+  padding: 40px;
+}
+
+.btm-title {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  /* text-align: left; */
+  margin: 8px 0px;
+}
+
+.btm-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  /* text-align: left; */
+  opacity: 0.7;
+  margin-bottom: 24px;
+  /* padding: 10px 0 25px 0; */
+}
+
+.btn-link {
+  margin: 8px 0px;
+  margin: 24px 0px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  /* text-align: left; */
+  text-decoration: none;
+  text-decoration-line: underline;
+}
+
+/* image height width set */
+.react {
+  width: 108px;
+  height: 108px;
+}
+
+.node {
+  width: 143.3px;
+  height: 87.75px;
+}
+
+.mongo {
+  width: 108px;
+  height: 108px;
+}
+
+/* contact section start */
+#contact {
+  justify-content: center;
+  display: flex;
+  margin: 40px 150px 80px 150px;
+  /* background-size: auto; */
+
+}
+
+.contact {
+  height: 250px;
+  width: 1092px;
+  background-image: url('assets/handshake.jpg');
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: 1092px 250px;
+
+}
+
+.contact-item {
+  padding: 64px 48px 64px 48px;
+  /* padding: 65px 50px; */
+}
+
+.contact-heading {
+  margin: 16px 0px;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.contact-description {
+  color: rgb(255, 255, 255);
+  /* font-family: Azeret Mono; */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.7;
+
+}
+
+/* footer section */
+
+.input-text {
+  padding: 20px 100px;
+  margin: 0px 16px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.df {
+  display: flex;
+  justify-content: center;
+}
+
+.input-submit {
+  padding: 17px 20px 17px 20px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  margin: 0px 10px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  padding: 32px 150px 32px 150px;
+}
+
+.footer-title {
+  font-weight: 600;
+  line-height: 23px;
+  font-size: 26px;
+}
+
+.footer img {
+  height: 36px;
+  width: 36px;
+  margin-right: 24px;
 }
